@@ -221,7 +221,7 @@ BEGIN
 					cntry
 				)
 					SELECT 
-						CID,
+						REPLACE(CID, '-', '') AS CID, 
 						CASE 
 							WHEN UPPER(TRIM(CNTRY)) = 'DE' THEN 'GERMANY'
 							WHEN UPPER(TRIM(CNTRY)) IN ('USA','US') THEN 'UNITED STATES'
