@@ -45,7 +45,7 @@ The data flow shows how data travels from source systems into the warehouse. Eac
 ## 🔗 Data Integration  
 Multiple data sources are integrated into the warehouse. The integration process makes sure that data is consistent and linked across systems (for example, customer and sales data coming from different platforms).  
 
-![Data Integrations](documents/data_integration.png)
+![Data Integration](documents/data_integration.png)
 
 ---
 
